@@ -1,0 +1,331 @@
+*{
+   margin: 0;
+   padding: 0;
+
+}
+
+#one{
+   background-color: white;
+
+}
+
+.hero-section{
+   max-width: 1200px;
+   height: 100vh;
+   padding: 40px 40px;
+   margin: auto;
+
+}
+
+.navbar{
+   display: flex;
+   justify-content: space-between;
+   margin: auto;
+   padding: 20px 20px;
+
+}
+
+ul{
+   display: flex;
+   gap: 40px;
+   list-style-type: none;
+   color: gray;
+
+}
+
+a{
+   text-decoration: none;
+   color: black;
+
+}
+
+.hero-container{
+   margin-top: 80px;
+   display: flex;
+   gap: 20%;
+   height: 650px;
+
+}
+
+.hero-intro{
+   margin-top: 60PX;
+   padding:0 20px;
+}
+
+.hero-intro > p{
+   letter-spacing: 1.2px;
+   line-height: 25px;
+   padding-top: 20px;
+}
+
+#colored-txt{
+   color: rgba(255, 0, 140, 0.699);
+
+}
+
+.hero-intro > h2 {
+   margin: 30px 0;
+   font-size: 40px;
+   font-weight: 700;
+   padding-top: 20px;
+   
+}
+
+#hire-btn{
+   color: white;
+   background-color: rgba(55, 0, 128, 0.808);
+   border-radius: 15px;
+   width: 23%;
+   padding: 10px;
+   font-size: 10px;
+   margin-top: 30px;
+
+}
+
+.hero-circle{
+   width: 380px;
+   height: 380px;
+   border-radius: 50%;
+   background-color:  rgba(255, 0, 140, 0.699);
+   position: relative;
+   padding-top: 20px;
+
+}
+
+#hero-image{
+   width: 350px;
+   height: 490px;
+   position: absolute;
+   top: 170px;
+   left: 20px;
+
+}
+
+#two{
+   background-color: rgba(255, 0, 140, 0.699);
+
+}
+
+.about-section{
+   max-width: 1200px;
+   height: 100vh;
+   padding:60px 40px 40px 40px;
+   margin: auto;
+   display: flex;
+   gap: 20%;
+
+}
+
+.about-left{
+   margin-top: 40px;
+   padding: 20px;
+   
+
+}
+
+.about-left > h5{
+   margin-bottom: 20px;
+   color: white;
+   font-weight: bold;
+
+}
+
+.about-left >h3{
+   margin: 20px 0;
+   line-height: 30px;
+   font-size:xx-large;
+   letter-spacing: 1.4px;
+   color: white;
+   font-weight:bolder;
+   
+
+}
+
+.about-left > p{
+   color: white;
+   letter-spacing: 1.2px;
+   line-height: 30px;
+   text-align: justify;
+   margin-bottom: 40px;
+
+}
+
+.about-left > span{
+   color: white;
+   
+}
+
+.about-right{
+   margin-top: 40px;
+   padding: 20px;
+
+}
+
+.about-right >h3{
+   margin-top: 30px;
+   color: white;
+   font-size: xx-large;
+   letter-spacing: 1.4px;
+
+}
+
+.about-right > P{
+   margin-top: 40px;
+   color: white;
+   letter-spacing: 1.2px;
+   
+}
+
+#three{
+   background-color: white;
+
+}
+
+.skills-section{
+   max-width: 1200px;
+   height: 100vh;
+   padding:60px 40px 40px 40px;
+   margin: auto;
+}
+
+.skills-section > h4{
+   margin-top: 40px;
+   text-align: center;
+}
+
+.skills-section > h3{
+   margin-top: 20px;
+   text-align: center;
+
+}
+
+.card-container{
+   margin-top: 40px;
+   display: flex;
+   gap:40px;
+   padding: 60px 0 ;
+   justify-content: center;
+   
+}
+
+.par{
+   margin-top: 20px;
+}
+#pink-card,#uiux-card,#logo-card{
+   padding: 2rem;
+   width: 250px;
+   height: 250px;
+   line-height: 30px;
+   letter-spacing: 1.4px;
+   text-align: justify;
+  
+}
+
+#uiux-card > h4{
+   color: gray;
+}
+
+#logo-card >h4{
+   color: gray;
+}
+#pink-card{
+   background-color: rgba(255, 0, 140, 0.699);
+   color: white;
+   
+}
+
+#pinky-button{
+   margin-top: 20px;
+   background-color: rgba(255, 0, 140, 0.699);
+   color: white;
+   font-size: 16px;
+   border: 2px solid transparent;
+   
+}
+#button-one,#button-two{
+   margin-top: 20px;
+   background-color: white;
+   color: blue;
+   border: 2px solid transparent;
+   font-size: 16px;
+   
+}
+
+#four{
+   background-color: white;
+}
+
+.box-section{
+   max-width: 1200px;
+   height: 100vh;
+   padding:60px 40px 40px 40px;
+   margin: auto;
+
+}
+
+.text-box{
+   margin-top: 40px;
+   text-align: center;
+
+}
+
+.text-box > h5{
+   margin-bottom: 20px;
+}
+.text-box > h3{
+   margin-bottom: 20px;
+
+}
+
+.text-box >ul{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 20px;
+}
+.grid-box{
+   display: grid;
+   margin-top: 10px;
+   grid-template-columns: repeat(3, 300px);
+   grid-template-rows: repeat(2,250px);
+   gap: 20px;
+   padding: 20px;
+   height: 550px;
+   justify-content: center;
+   
+}
+.box{
+   display: flex;
+   align-items: center;
+   
+}
+#box-img{
+   width: 300px;
+   height: 220px;
+   margin-top: 30px;
+}
+footer{
+   margin-top: 40px;
+   text-align: center;
+   color: white;
+   background-color:  rgba(255, 0, 140, 0.699) ;
+}
+.footer >h4{
+   margin-bottom: 20px;
+   padding-top: 20px ;
+}
+.footer >h3{
+   font-size: x-large;
+   letter-spacing: 1.2px;
+   padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
